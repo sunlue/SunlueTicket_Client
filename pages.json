@@ -1,0 +1,118 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {}
+	}, {
+		"path": "pages/order/index",
+		"style": {
+			"enablePullDownRefresh": true,
+			"backgroundTextStyle": "dark"
+		}
+	}, {
+		"path": "pages/order/detail",
+		"style": {
+			"navigationBarTitleText": "订单详情"
+		}
+	}, {
+		"path": "pages/my/index",
+		"style": {
+			"h5": {
+				"titleNView": false
+			}
+		}
+	}, {
+		"path": "pages/my/feedback",
+		"style": {
+			"navigationBarTitleText": "帮助与反馈"
+		}
+	}, {
+		"path": "pages/my/terms",
+		"style": {
+			"navigationBarTitleText": "服务条款"
+		}
+	}, {
+		"path": "pages/my/ticket",
+		"style": {
+			"enablePullDownRefresh":true,
+			"h5":{
+				"titleNView":{
+					"searchInput":{
+						"align":"center",
+						"backgroundColor":"white",
+						"borderRadius":"5px",
+						"placeholder":"输入联系人/联系电话/证件号查询更多"
+					}
+				}
+			}
+		}
+	}, {
+		"path": "pages/catagory/index",
+		"style": {}
+	}, {
+		"path": "pages/catagory/goods",
+		"style": {}
+	}, {
+		"path": "pages/catagory/order",
+		"style": {}
+	}, {
+		"path": "pages/catagory/buy",
+		"style": {}
+	}, {
+		"path": "pages/login/index",
+		"style": {
+			"h5": {
+				"titleNView": false
+			}
+		}
+	}, {
+		"path": "pages/login/mobile",
+		"style": {
+			"h5": {
+				"titleNView": false
+			}
+		}
+	}, {
+		"path": "pages/login/reg",
+		"style": {
+			"h5": {
+				"titleNView": false
+			}
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Sunlue_TICKET票务系统",
+		"navigationBarBackgroundColor": "#e4392a",
+		"backgroundColor": "#e4392a"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#e4392a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/assets/icon/home.png",
+				"selectedIconPath": "/static/assets/icon/_home.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/catagory/index",
+				"iconPath": "/static/assets/icon/catagory.png",
+				"selectedIconPath": "/static/assets/icon/_catagory.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/order/index",
+				"iconPath": "/static/assets/icon/order.png",
+				"selectedIconPath": "/static/assets/icon/_order.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "/static/assets/icon/my.png",
+				"selectedIconPath": "/static/assets/icon/_my.png",
+				"text": "我的"
+			}
+		]
+	}
+}
